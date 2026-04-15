@@ -1,0 +1,35 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Root virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Build output
+apps/web/dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Databases
+*.db
+
+# Keep local API data out of source control by default
+apps/api/data/homeops.db
+apps/api/data/chroma_db/

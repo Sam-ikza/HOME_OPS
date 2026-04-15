@@ -1,0 +1,2 @@
+-- HomeSense MVP baseline schema placeholder.
+-- In production, maintain this file with explicit DDL and migrate using Alembic.

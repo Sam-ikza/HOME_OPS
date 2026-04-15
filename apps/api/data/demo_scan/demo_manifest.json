@@ -1,0 +1,121 @@
+{
+  "scenarios": [
+    {
+      "filename": "floor-lamp-and-Electrical-Plug_7b52852b-3e3a-4777-9769-8a0ab659d0c5.webp",
+      "appliance_type": "lamp",
+      "brand": "Demo Floor Lamp",
+      "model_number": "Plug Disconnect",
+      "error_code": null,
+      "display_text": null,
+      "likely_issue": "Lamp plug is disconnected from the outlet, so the lamp has no power.",
+      "visible_signals": ["plug_unplugged", "power_disconnected"],
+      "risk_flags": [],
+      "summary": "The lamp appears intact, but the plug is visibly out of the wall outlet.",
+      "confidence": 0.99
+    },
+    {
+      "filename": "DIRTY WALTER FILTER.jpg",
+      "appliance_type": "water_filter",
+      "brand": "Demo Water Filter",
+      "model_number": "Dirty Filter",
+      "error_code": null,
+      "display_text": null,
+      "likely_issue": "The water filter is extremely dirty and should be replaced as soon as possible.",
+      "visible_signals": ["filter_dirty", "sediment_buildup", "replacement_urgent"],
+      "risk_flags": [],
+      "summary": "The filter media appears heavily contaminated with debris, which can restrict flow and degrade water quality if not replaced immediately.",
+      "confidence": 0.98
+    },
+    {
+      "filename": "DAMAGED HEATING ELEMENT.webp",
+      "appliance_type": "water_heater",
+      "brand": "Demo Water Heater",
+      "model_number": "Heating Element Fault",
+      "error_code": null,
+      "display_text": null,
+      "likely_issue": "The electric water-heater element is heavily coated with limescale and mineral deposits, typically from hard water.",
+      "visible_signals": ["heating_element_damage", "limescale_buildup", "mineral_deposits"],
+      "risk_flags": [],
+      "summary": "These deposits insulate the element, forcing it to work harder, reducing efficiency, and increasing the chance of eventual element failure.",
+      "confidence": 0.98
+    },
+    {
+      "filename": "close-up-damaged-condenser-coils OF AC.webp",
+      "appliance_type": "air_conditioner",
+      "brand": "Demo AC Unit",
+      "model_number": "Condenser Coil Damage",
+      "error_code": null,
+      "display_text": null,
+      "likely_issue": "Condenser coils are visibly damaged or blocked, reducing cooling performance.",
+      "visible_signals": ["condenser_coil_damage", "coil_blocked"],
+      "risk_flags": [],
+      "summary": "The coil fins appear bent and obstructed, which can limit airflow and heat exchange.",
+      "confidence": 0.97
+    },
+    {
+      "filename": "CLOGGED AIR PURIFIER.jpg",
+      "appliance_type": "air_purifier",
+      "brand": "Demo Air Purifier",
+      "model_number": "Clogged Filter",
+      "error_code": null,
+      "display_text": null,
+      "likely_issue": "The air purifier filter is clogged with a significant amount of dust and debris.",
+      "visible_signals": ["filter_clogged", "dust_buildup", "debris_buildup", "airflow_restricted"],
+      "risk_flags": [],
+      "summary": "This condition reduces effectiveness by restricting airflow and lowering purification performance.",
+      "confidence": 0.98
+    },
+    {
+      "filename": "images.jpg",
+      "appliance_type": "washing_machine",
+      "brand": "Demo Washer",
+      "model_number": "Child Lock Active",
+      "error_code": "CL",
+      "display_text": "CL",
+      "likely_issue": "Child lock is enabled, so the appliance appears unresponsive until the lock is cleared.",
+      "visible_signals": ["display_code_visible", "child_lock_active"],
+      "risk_flags": [],
+      "summary": "The display shows CL, which indicates child lock rather than a mechanical failure.",
+      "confidence": 0.99
+    },
+    {
+      "filename": "images (1).jpg",
+      "appliance_type": "air_conditioner",
+      "brand": "Demo AC Unit",
+      "model_number": "Low Refrigerant",
+      "error_code": null,
+      "display_text": null,
+      "likely_issue": "Refrigerant leak or low refrigerant is causing no cooling.",
+      "visible_signals": ["no_cooling", "refrigerant_issue_suspected"],
+      "risk_flags": ["refrigerant_leak"],
+      "summary": "This scenario represents an AC unit that is not cooling because refrigerant is leaking or depleted.",
+      "confidence": 0.97
+    },
+    {
+      "filename": "testimg.jpeg",
+      "appliance_type": "washing_machine",
+      "brand": "Demo Washer",
+      "model_number": "Pump Failure",
+      "error_code": "E08",
+      "display_text": "E.0.8",
+      "likely_issue": "Drain or circulation pump failure is preventing the appliance from completing its cycle.",
+      "visible_signals": ["display_code_visible", "pump_failure_suspected"],
+      "risk_flags": [],
+      "summary": "The display indicates pump failure with code E.0.8, which commonly points to a blocked or failed pump assembly.",
+      "confidence": 0.99
+    },
+    {
+      "filename": "testimg2.jpeg",
+      "appliance_type": "washing_machine",
+      "brand": "Demo Washer",
+      "model_number": "Rear Leak",
+      "error_code": null,
+      "display_text": null,
+      "likely_issue": "Water is leaking from the back of the appliance, likely from a hose, valve, or inlet connection.",
+      "visible_signals": ["water_leak_visible", "rear_leak"],
+      "risk_flags": [],
+      "summary": "This scenario represents a visible rear-side leak rather than an internal electrical fault.",
+      "confidence": 0.98
+    }
+  ]
+}
